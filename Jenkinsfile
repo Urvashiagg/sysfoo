@@ -38,6 +38,7 @@ pipeline {
         sh 'mvn package -DskipTests'
         archiveArtifacts 'target/*.jar'
         archiveArtifacts 'target/*.jar'
+        echo 'Hello'
       }
     }
 
