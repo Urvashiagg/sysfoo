@@ -44,7 +44,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('Docker Bnp') {
           agent any
           steps {
             script {
